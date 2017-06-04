@@ -1,4 +1,4 @@
-# MCTools
+# PythonMinecraftTools
 Lightweight Minecraft Tools
 All of this is written in Pythong 3.6
 
