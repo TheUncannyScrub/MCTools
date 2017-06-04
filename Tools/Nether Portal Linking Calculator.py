@@ -45,7 +45,7 @@ if NorO == 1:
 #Overworld to Nether
 if NorO == 2:
 
-    print('Nether to Overworld')
+    print('Overworld to Nether')
     print('Only type numbers!!')
     sleep(1)
     while True:
@@ -69,9 +69,9 @@ if NorO == 2:
         except:
          print('You must enter a number!')
 
-    xouto = (xino) * 8
-    youto = (yino) * 8
-    zouto = (zino) * 8
+    xouto = (xino) / 8
+    youto = (yino) / 8
+    zouto = (zino) / 8
 
     print('Build a portal at:' ,xouto,youto,zouto, 'In the nether')
 
