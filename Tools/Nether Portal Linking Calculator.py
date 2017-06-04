@@ -6,7 +6,7 @@ from time import *
 print('Lightweight Minecraft Tools')
 print('For Nether to Overworld press 1 or for Overworld to Nether press 2')
 
-NorO = int(input())
+NorO = float(input())
 #Nether to Overworld
 if NorO == 1:
 
@@ -15,21 +15,21 @@ if NorO == 1:
     sleep(1)
     while True:
         try:
-            xin = int(input('Overworld X Co-Ords: '))
+            xin = int(input('Nether X Co-Ords: '))
             break
         except:
             print('You must enter a number!')
 
     while True:
         try:
-            yin = int(input('Overworld Y Co-Ords: '))
+            yin = int(input('Nether Y Co-Ords: '))
             break
         except:
           print('You must enter a number!')
 
     while True:
         try:
-            zin = int(input('Overworld Z Co-Ords: '))
+            zin = int(input('Nether Z Co-Ords: '))
             break
         except:
          print('You must enter a number!')
@@ -50,21 +50,21 @@ if NorO == 2:
     sleep(1)
     while True:
         try:
-            xino = int(input('Nether X Co-Ords: '))
+            xino = int(input('Overworld X Co-Ords: '))
             break
         except:
             print('You must enter a number!')
 
     while True:
         try:
-            yino = int(input('Nether Y Co-Ords: '))
+            yino = int(input('Overworld Y Co-Ords: '))
             break
         except:
           print('You must enter a number!')
 
     while True:
         try:
-            zino = int(input('Nether Z Co-Ords: '))
+            zino = int(input('Overworld Z Co-Ords: '))
             break
         except:
          print('You must enter a number!')
@@ -73,7 +73,7 @@ if NorO == 2:
     youto = (yino) * 8
     zouto = (zino) * 8
 
-    print('Build a portal at:' ,xouto,youto,zouto, 'In the Overworld')
+    print('Build a portal at:' ,xouto,youto,zouto, 'In the nether')
 
     sleep(2)
     input('Press ENTER to exit')
