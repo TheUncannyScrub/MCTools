@@ -17,3 +17,6 @@ Big Build Calculator
 Nether Portal Calculator
  - Allows you to link up portals accuratly!
  - Follow the instruction in the program to get the right calculations!
+
+Minecraft Time Converstions table
+ - Prints out a simple converstion table for Minecraft to Real time Times!
