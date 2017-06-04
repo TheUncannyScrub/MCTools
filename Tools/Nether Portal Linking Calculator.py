@@ -6,7 +6,7 @@ from time import *
 print('Lightweight Minecraft Tools')
 print('For Nether to Overworld press 1 or for Overworld to Nether press 2')
 
-NorO = float(input())
+NorO = int(input())
 #Nether to Overworld
 if NorO == 1:
 
