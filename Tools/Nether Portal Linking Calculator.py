@@ -50,21 +50,21 @@ if NorO == 2:
     sleep(1)
     while True:
         try:
-            xino = int(input('Overworld X Co-Ords: '))
+            xino = int(input('Nether X Co-Ords: '))
             break
         except:
             print('You must enter a number!')
 
     while True:
         try:
-            yino = int(input('Overworld Y Co-Ords: '))
+            yino = int(input('Nether Y Co-Ords: '))
             break
         except:
           print('You must enter a number!')
 
     while True:
         try:
-            zino = int(input('Overworld Z Co-Ords: '))
+            zino = int(input('Nether Z Co-Ords: '))
             break
         except:
          print('You must enter a number!')
@@ -73,7 +73,7 @@ if NorO == 2:
     youto = (yino) * 8
     zouto = (zino) * 8
 
-    print('Build a portal at:' ,xouto,youto,zouto, 'In the nether')
+    print('Build a portal at:' ,xouto,youto,zouto, 'In the Overworld')
 
     sleep(2)
     input('Press ENTER to exit')
