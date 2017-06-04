@@ -10,3 +10,8 @@ Big Build Calculator
  - It allows you to enter a number and the program will convert 
    it to the amount of chest or stacks you will need to keep the resource gathering simple
  - Simple error detection if you're naughty and enter letters instead!
+
+
+Nether Portal Calculator
+ - Allows you to link up portals accuratly!
+ - Follow the instruction in the program to get the right calculations!
